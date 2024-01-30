@@ -14,7 +14,8 @@
 
 /*** image-area ***/
 .image-area {
-  max-inline-size: 88px;
+  /* 88px */
+  max-inline-size: 5.5rem;
   margin-inline: auto;
 }
 
