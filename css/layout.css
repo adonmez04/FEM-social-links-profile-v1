@@ -1,0 +1,15 @@
+/* The layout of the page */
+body {
+  padding-block: 10.875rem;
+  padding-inline: 1.5rem;
+}
+
+.section-profile-card {
+  /* 384px */
+  max-inline-size: 24rem;
+
+  @media (width <=375px) {
+    /* 327px */
+    max-inline-size: 20.4375rem;
+  }
+}

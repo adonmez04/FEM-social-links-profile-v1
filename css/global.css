@@ -1,0 +1,11 @@
+/* The theme of the page */
+:root {
+  color: var(--white, #FFF);
+  background-color: var(--off-black, #141414);
+  ;
+}
+
+body {
+  /* font-style font-weight font-size/line-height font-family */
+  font: normal 400 0.875rem/1.5 "Outfit", "Inter", sans-serif;
+}
