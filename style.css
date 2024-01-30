@@ -43,15 +43,12 @@
   --stack: 1rem;
 }
 
-.link-area ul li a {
+.link-area li a:link,
+.link-area li a:visited {
   display: block;
   border-radius: 0.5rem;
   background: var(--grey, #333);
   padding: 0.75rem;
-}
-
-.link-area li a:link,
-.link-area li a:visited {
   font-weight: 700;
 }
 
