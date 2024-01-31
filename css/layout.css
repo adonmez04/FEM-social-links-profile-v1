@@ -1,7 +1,13 @@
 /* The layout of the page */
 body {
-  padding-block: 10.875rem;
-  padding-inline: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 100svb;
+}
+
+main {
+  inline-size: 90%;
 }
 
 .section-profile-card {
